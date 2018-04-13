@@ -47,8 +47,9 @@ public class Controller : MonoBehaviour {
 
             currPiece = ShogiPieces[x, z];
             BoardHighlight.Instance.HighlightLegalMoves(legalMoves);
-
+            return;
         }
+        Debug.Log("It's not your turn!");
     }
 
     private void MovePiece(int x, int z) {
