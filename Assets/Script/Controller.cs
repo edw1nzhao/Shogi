@@ -66,7 +66,24 @@ public class Controller : MonoBehaviour {
             }
             ShogiPieces[currPiece.x, currPiece.z] = null;
             currPiece.transform.position = GetTileCenter(x, z);
+
             currPiece.SetPos(x, z);
+
+            if (currPiece.White) {
+                if (!currPiece.Promoted) {
+                    if (currPiece.z > 5) {
+                        Debug.Log("Promoted");
+                        currPiece.Promoted = true;
+                    }
+                }
+            } else {
+                if (!currPiece.Promoted) {
+                    if (currPiece.z < 3) {}
+                    Debug.Log("Promoted");
+                    currPiece.Promoted = true;
+                }
+            }
+   
             ShogiPieces[x, z] = currPiece;
             whiteTurn = !whiteTurn;
         }

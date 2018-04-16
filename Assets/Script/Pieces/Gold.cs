@@ -9,7 +9,6 @@ public class Gold : ShogiPiece {
 
         ShogiPiece[] sp = new ShogiPiece[6];
 
-
         if (White) {
             // Left
             if (x - 1 > 0) {

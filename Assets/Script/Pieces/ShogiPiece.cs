@@ -6,6 +6,7 @@ public abstract class ShogiPiece : MonoBehaviour {
     public int x { set; get; }
     public int z { set; get; }
     public bool White;
+    public bool Promoted;
 
     public void SetPos(int x, int z) {
         this.x = x;

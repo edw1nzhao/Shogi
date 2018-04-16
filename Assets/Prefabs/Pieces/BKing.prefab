@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4852690666406602}
   - component: {fileID: 33864781855519522}
   - component: {fileID: 23875902241387332}
-  - component: {fileID: 114152033288313042}
+  - component: {fileID: 114835309378045930}
   m_Layer: 0
   m_Name: BKing
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1053015749505504}
   m_Mesh: {fileID: 4300000, guid: 3799edfaf3a1fec4387444a01fe76d0d, type: 3}
---- !u!114 &114152033288313042
+--- !u!114 &114835309378045930
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1053015749505504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec25629946f79b146ae31bebf4916ac5, type: 3}
+  m_Script: {fileID: 11500000, guid: d367f706903cbff45ac0cf1e750b488d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   White: 0
